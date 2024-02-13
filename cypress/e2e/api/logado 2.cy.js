@@ -1,7 +1,7 @@
 describe('Posts', () => {
 
     beforeEach(() => {
-        // api para logar
+        // api para logarr
         cy.login(Cypress.env('email'), Cypress.env('senha'))
         
     })
