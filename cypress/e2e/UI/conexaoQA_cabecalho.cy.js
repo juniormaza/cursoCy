@@ -44,6 +44,41 @@ describe('cabeçalho da página home', () => {
                 .should('have.attr', 'href', '/login')
                 .and('not.have.attr', 'target')
         })
+
+        it('valida os menus utilizando array', () => {
+
+            const menus = [
+                { seletor:'navbar-conexaoQA', link: '/' },
+                { seletor:'navbar-QAs', link: '/perfis' },
+                { seletor:'navbar-about', link: '/sobre' },
+                { seletor:'navbar-register', link: '/cadastrar' },
+                { seletor:'navbar-login', link: '/login' }
+            ]
+
+            menus.forEach(({ seletor, link }) => {
+                cy.get(`[data-test=${seletor}]`)
+                    .should('have.attr', 'href', link)
+                    .and('not.have.attr', 'target')
+            })
+        })
+
+        ;[
+            { seletor:'navbar-conexaoQA', link: '/', menu: ' ConexãoQA'  },
+            { seletor:'navbar-QAs', link: '/perfis', menu: 'QAs' },
+            { seletor:'navbar-about', link: '/sobre', menu: 'Sobre' },
+            { seletor:'navbar-register', link: '/cadastrar', menu: 'Cadastrar' },
+            { seletor:'navbar-login', link: '/login', menu: 'Login' }
+        ].forEach(({ seletor, link, menu}) => {
+           
+            it(`valida o menu ${menu}`, () => {
+                cy.get(`[data-test=${seletor}]`)
+                    .should('have.attr', 'href', link)
+                    .and('not.have.attr', 'target')
+                    //.and('have.text', menu)
+                
+            })
+        })
+
     })
 
     context('logado', () => {
