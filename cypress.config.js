@@ -4,7 +4,7 @@ module.exports = defineConfig({
     e2e: {
         baseUrl: 'http://localhost:3000',
         viewportHeight:1080,
-        viewportWidth:1920,
+        viewportWidth:1980,
         retries: {
             runMode: 1,
             openMode: 0

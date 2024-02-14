@@ -1,5 +1,12 @@
 describe('cabeçalho da página home', () => {
 
+    const validarMenu = (seletor, link, menu) => {
+        cy.getElement(seletor)
+            .should('have.attr', 'href', link)
+            .and('not.have.attr', 'target', '_blank')
+            .and('have.text', menu)
+    }
+
     context('não logado', () => {
         beforeEach(() => {
             cy.visit('/')
@@ -63,7 +70,7 @@ describe('cabeçalho da página home', () => {
         })
 
         ;[
-            { seletor:'navbar-conexaoQA', link: '/', menu: ' ConexãoQA'  },
+            { seletor:'navbar-conexaoQA', link: '/', menu: ' ConexãoQA' },
             { seletor:'navbar-QAs', link: '/perfis', menu: 'QAs' },
             { seletor:'navbar-about', link: '/sobre', menu: 'Sobre' },
             { seletor:'navbar-register', link: '/cadastrar', menu: 'Cadastrar' },
@@ -71,10 +78,7 @@ describe('cabeçalho da página home', () => {
         ].forEach(({ seletor, link, menu}) => {
            
             it(`valida o menu ${menu}`, () => {
-                cy.get(`[data-test=${seletor}]`)
-                    .should('have.attr', 'href', link)
-                    .and('not.have.attr', 'target')
-                    //.and('have.text', menu)
+                validarMenu(seletor, link, menu)
                 
             })
         })
@@ -82,7 +86,28 @@ describe('cabeçalho da página home', () => {
     })
 
     context('logado', () => {
+
+        beforeEach(() => {
+            cy.login(Cypress.env('email'), Cypress.env('senha')) 
+            cy.visit('dashboard')
+             
+        })
         
+        ;[
+            { seletor:'navbar-conexaoQA', link: '/', menu: ' ConexãoQA' },
+            { seletor:'navbar-QAs', link: '/perfis', menu: 'QAs' },
+            { seletor:'navbar-posts', link: '/posts', menu: 'Posts' },
+            { seletor:'navbar-dashboard', link: '/dashboard', menu: ' Dashboard' },
+            { seletor:'navbar-about', link: '/sobre', menu: 'Sobre' },
+            { seletor:'navbar-logout', link: '/', menu: ' Sair' },
+        ].forEach(({seletor, link, menu }) => {
+
+            it(`valida o menu ${menu}`, () => {
+                validarMenu(seletor, link, menu)
+                
+            })
+
+        })
     })
     
 })
