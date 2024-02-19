@@ -1,0 +1,240 @@
+[
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "cypress",
+            "selenium"
+        ],
+        "_id": "65c58824a4e4fc4860fb6bdf",
+        "user": {
+            "_id": "65c587d1a4e4fc4860fb6bde",
+            "name": "amarildo",
+            "avatar": "//www.gravatar.com/avatar/6ce668b627363a805bf6ffd98b1b6f96?s=200&r=pg&d=mm"
+        },
+        "company": "Iterasys",
+        "website": "",
+        "location": "osasco",
+        "bio": "",
+        "status": "QA Junior",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-09T02:04:20.755Z",
+        "__v": 0
+    },
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "Teste"
+        ],
+        "_id": "65c634894bba97099ce7d79e",
+        "user": {
+            "_id": "65c6334f4bba97099ce7d79d",
+            "name": "Pedro Guerra",
+            "avatar": "//www.gravatar.com/avatar/ce300335dc0780333274cef9f7a33a4a?s=200&r=pg&d=mm"
+        },
+        "company": "",
+        "website": "",
+        "location": "",
+        "bio": "",
+        "status": "QA Pleno",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-09T14:19:53.217Z",
+        "__v": 0
+    },
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "Word",
+            "Excel",
+            "Folha de Pagamento"
+        ],
+        "_id": "65c7c3f3c95a2e3944caca6f",
+        "user": {
+            "_id": "65c7c393c95a2e3944caca6e",
+            "name": "isabelle",
+            "avatar": "//www.gravatar.com/avatar/7f15dfa1b2468a2de5c12290ddbe4d85?s=200&r=pg&d=mm"
+        },
+        "company": "Banco Pan",
+        "website": "",
+        "location": "São Paulo",
+        "bio": "",
+        "status": "Outro",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-10T18:44:03.783Z",
+        "__v": 0
+    },
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "Automação"
+        ],
+        "_id": "65d3acf89441df3af0ad61b8",
+        "user": {
+            "_id": "65d3acaf9441df3af0ad61b7",
+            "name": "Lucia",
+            "avatar": "//www.gravatar.com/avatar/d5b46d0675af32a20324aeac1e054eed?s=200&r=pg&d=mm"
+        },
+        "company": "",
+        "website": "",
+        "location": "",
+        "bio": "",
+        "status": "Professor ou Instrutor",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-19T19:33:12.236Z",
+        "__v": 0
+    },
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "Testes"
+        ],
+        "_id": "65d3ad299441df3af0ad61b9",
+        "user": {
+            "_id": "65d3ac679441df3af0ad61b5",
+            "name": "Rafael",
+            "avatar": "//www.gravatar.com/avatar/01a66f2ff1890e84ef715044fe1fb19d?s=200&r=pg&d=mm"
+        },
+        "company": "",
+        "website": "",
+        "location": "",
+        "bio": "",
+        "status": "Estudante ou Aprendendo",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-19T19:34:01.272Z",
+        "__v": 0
+    },
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "Carros"
+        ],
+        "_id": "65d3ad5a9441df3af0ad61ba",
+        "user": {
+            "_id": "65d3ac8e9441df3af0ad61b6",
+            "name": "Durana",
+            "avatar": "//www.gravatar.com/avatar/5439ca049c33ea662e2d29c6c85c0811?s=200&r=pg&d=mm"
+        },
+        "company": "",
+        "website": "",
+        "location": "",
+        "bio": "",
+        "status": "Outro",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-19T19:34:50.839Z",
+        "__v": 0
+    },
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "Cypress"
+        ],
+        "_id": "65d3adae9441df3af0ad61bc",
+        "user": {
+            "_id": "65d3ad959441df3af0ad61bb",
+            "name": "Vitoria",
+            "avatar": "//www.gravatar.com/avatar/7e3e35f56f40612e7af4014c1a01cb2d?s=200&r=pg&d=mm"
+        },
+        "company": "",
+        "website": "",
+        "location": "",
+        "bio": "",
+        "status": "Gerente de Testes",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-19T19:36:14.352Z",
+        "__v": 0
+    },
+    {
+        "social": {
+            "youtube": "",
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "medium": ""
+        },
+        "skills": [
+            "Cypress"
+        ],
+        "_id": "65d3adae9441df3af0ad61bc",
+        "user": {
+            "_id": "65d3ad959441df3af0ad61bb",
+            "name": "Vitoria",
+            "avatar": "//www.gravatar.com/avatar/7e3e35f56f40612e7af4014c1a01cb2d?s=200&r=pg&d=mm"
+        },
+        "company": "",
+        "website": "",
+        "location": "",
+        "bio": "",
+        "status": "Gerente de Testes",
+        "githubusername": "",
+        "experience": [],
+        "education": [],
+        "date": "2024-02-19T19:36:14.352Z",
+        "__v": 0
+    }
+
+
+    
+]
